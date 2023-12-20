@@ -22,12 +22,17 @@
   
  
   .SvgContainerTest {
-    height: 50px;
-    width: 100px;
+    height: 88px;
+    width: 200px;
     margin-bottom: 2px;
     /* border: solid red; */
 
     /* transform: scaleY(-1) scaleX(-1); */
+  }
+  .SvgContainerTest  img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
   }
   .titleCardTest {
    
@@ -42,6 +47,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    min-height: 260px;
   }
   .cardContainerTest p {
     font-style: italic;
