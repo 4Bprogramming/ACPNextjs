@@ -1,49 +1,8 @@
-.AboutContact {
-  background-color: #282c34;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  /* margin: 0 auto; */
-  margin-top: -25%;
-  margin-bottom: 2%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  /* justify-content: space-around; */
- /* border: solid green; */
+.AboutContact{
+  border: 1px solid red;
 }
-
-.photoContact {
-  height: 300px;
-  width: 400px;
-  /* border-radius: 15px; */
-  background-image: url("../../Assets/contact.avif");
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  border: solid black;
-}
-/* .photoContact:hover {
-  filter: grayscale(80%);
-  transform: scale(1.1);
-  transition: 500ms;
-} */
-
-.StyledHeadingContact {
-  display: flex;
-  height: 300%;
-  font-size: 2.5rem;
-  color: White;
-  /* border: solid rgb(183, 0, 255); */
-  /* margin-bottom: 1%; */
-  margin-top: -15%;
-  text-align: center;
-  justify-content: center;
-}
-
 .TextSectionContact {
   margin-left: -110%;
-  /* margin-right: 10px; */
   margin-top: 1px;
   text-align: center;
   font-size: 150%;
@@ -51,76 +10,15 @@
   color: white;
   display: flex;
   flex-direction: column;
-  /* border: solid red; */
 }
 .contactLink{
   outline: none;
-  /* text-decoration: none; */
 }
 .contactLink:link{
   color: rgb(255, 255, 255)
 }
 .contactwh {
-  margin-top: -5%;
-  /* margin-bottom: 5%; */
+  display: flex;
+  width: 100%;
+  justify-content: center;
  }
- .contactemail{
-   margin-top: -5%;
- }
- .contactcel{
-   margin-top: -5%;
-   margin-bottom: 5%;
- }
-
-@media screen and (max-width: 1200px) {
-  .AboutContact {
-    flex-direction: column;
-    align-items: center;
-  }
-  .TextSectionContact,
-  .StyledHeadingContact {
-    width: 100%;
-    margin: 0 auto;
-  }
-  
-  .photoContact {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-}
-
-@media screen and (max-width: 620px) {
-  .photoContact {
-    width: 320px;
-    height: 320px;
-    /* border: solid red; */
-  }
-  .TextSectionContact {
-    margin-top: 40px;
-    width: 300px;
-    height: 200px;
-
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .contactwh {
-   margin-top: -20%;
-   /* margin-bottom: 5%; */
-  }
-  .contactemail{
-    margin-top: -5%;
-  }
-  .contactcel{
-    margin-top: -5%;
-    margin-bottom: 5%;
-  }
-
-}
-@media screen and (max-width: 315px) {
-  .photoContact {
-    width: 200px;
-    height: 200px;
-  }
-
-}
