@@ -4,7 +4,6 @@
     margin-top: -15%;
     margin-bottom: 2%;
     height: 420%;
-    /* border: solid red; */
   }
   .containerTest {
     display: flex;
@@ -12,8 +11,6 @@
     align-items: center;
     justify-content: space-around;
     margin-top: 20px;
-    margin-bottom: 25%;
-    /* border: solid red; */
   }
   .TestimonialsTitle{
       font-size: 250%;
@@ -25,9 +22,6 @@
     height: 88px;
     width: 200px;
     margin-bottom: 2px;
-    /* border: solid red; */
-
-    /* transform: scaleY(-1) scaleX(-1); */
   }
   .SvgContainerTest  img{
     object-fit: fill;
