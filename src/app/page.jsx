@@ -14,12 +14,12 @@ export default function Complete() {
       {/* <NavBar/> */}
       {/* <h1>ACA PONDRIA TODO</h1> */}
       <Home className={styles.About}/>
-      <div className="back">
+      
       <About className={styles.About}/>
       <Services/>
       <Testimonials/>
       <Contact/>
-      </div>
+    
       <Footer/>
     </main>
   )
