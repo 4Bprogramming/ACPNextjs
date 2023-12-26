@@ -1,24 +1,29 @@
-.AboutContact{
-  border: 1px solid red;
-}
-.TextSectionContact {
-  margin-left: -110%;
-  margin-top: 1px;
-  text-align: center;
-  font-size: 150%;
-  width: 300%;
-  color: white;
+.AboutContact {
+  background-color: var(--bg-color-dark);
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
-.contactLink{
-  outline: none;
-}
-.contactLink:link{
-  color: rgb(255, 255, 255)
-}
-.contactwh {
+.mediaIcons {
   display: flex;
   width: 100%;
   justify-content: center;
- }
+}
+.AboutContact > div:nth-child(1),
+.AboutContact > div:nth-child(3),
+.AboutContact > div:nth-child(4) {
+  padding: 10px 20px;
+}
+.AboutContact > div:nth-child(1),
+.AboutContact > div:nth-child(3),
+.AboutContact > div:nth-child(4),
+.AboutContact > div:nth-child(3) > a:hover {
+  color: var(--light-color);
+}
+
+.AboutContact > div:nth-child(3) > a {
+  text-decoration: none;
+  color: var(--link-colour);
+  font-weight: bold;
+}
+
