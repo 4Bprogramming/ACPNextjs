@@ -7,49 +7,36 @@ import Link from "next/link";
 
 function Contact() {
   return (
-      <div className="AboutContact">
-        <div>CONTACTO</div>
-          <div className="contactwh">
-            <div>
-              <Image
-                src={Whatsapp}
-                href="https://api.whatsapp.com/send?phone=5492616075153"
-                target="blank"
-                width={50}
-                alt="Whatsapp"
-                style={{ marginRight: "20px" }}
-              />{" "}
-            </div>
-            <div>
-              <Image
-                src={Instagram}
-                href="https://www.instagram.com/acp.gestion.marketing/?igshid=MzRlODBiNWFlZA=="
-                target="blank"
-                style={{ marginTop: "2px" }}
-                width={50}
-                alt="Instagram"
-              />{" "}
-            </div>
-          </div>
-          <p className="contactemail" style={{ fontWeight: "600" }}>
-            EMAIL:
-            <Link
-              href="mailto:acpgestionymarketing@gmail.com"
-              className="contactLink"
-              style={{ marginLeft: "10px", outline: "none" }}
-            >
-              ACPmail{" "}
-            </Link>
-           
-          </p>
-          <p className="contactcel" style={{ fontWeight: "600" }}>
-            {` CEL:  `}
-            <span style={{ fontWeight: "200", marginLeft: "5px" }}>
-              {`2616075153 // 2613051523`}
-            </span>{" "}
-          </p>
+    <div className="AboutContact">
+      <div>CONTACTO</div>
+      <div className="mediaIcons">
+        <div>
+          <Image
+            src={Whatsapp}
+            href="https://api.whatsapp.com/send?phone=5492616075153"
+            target="blank"
+            width={50}
+            alt="Whatsapp"
+            style={{ marginRight: "20px" }}
+          />{" "}
         </div>
-   
+        <div>
+          <Image
+            src={Instagram}
+            href="https://www.instagram.com/acp.gestion.marketing/?igshid=MzRlODBiNWFlZA=="
+            target="blank"
+            style={{ marginTop: "2px" }}
+            width={50}
+            alt="Instagram"
+          />{" "}
+        </div>
+      </div>
+      <div>
+        EMAIL: 
+        <Link href="mailto:acpgestionymarketing@gmail.com"> ACPmail </Link>
+      </div>
+      <div>CEL: <span>2616075153 // 2613051523</span></div>
+    </div>
   );
 }
 
