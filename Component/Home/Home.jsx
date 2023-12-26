@@ -1,36 +1,24 @@
 import React from "react";
-import Image from 'next/image'
-import logo from "Assets/presentar.png"; 
+import Image from "next/image";
+import logo from "Assets/presentar.png";
 import line from "Assets/line.png";
-import styles from "../../src/app/home.module.css"
+import styles from "../../src/app/home.module.css";
 
 function Home() {
   return (
-    <div id="home" >
+    <div id="home">
       <div className={styles.AboutBody}>
         <div className={styles.AboutContainer}>
           <div className={styles.fotoo}>
-                <div className={styles.StyledHeading}>C O N S U L T O R A</div>
-                  
-                <Image
-                src={line}
-                alt="linea"
-                layout="responsive"
-                
-                />
+            <div className={styles.StyledHeading}>C O N S U L T O R A</div>
+
+            <Image src={line} alt="linea" layout="responsive" />
           </div>
-          {/* <img className="fotoo" src={line}  /> */}
+
           <div className={styles.TextSection}>
             <Image className={styles.Photo2} src={logo} layout="responsive" />
-           
           </div>
         </div>
-        {/* <div className="position">
-              <button className="btninfo">Más info aquí</button>
-            </div> */}
-        {/* <div className="AboutContainer">
-          <img className="Photo" src={pict1} />
-        </div> */}
       </div>
     </div>
   );
