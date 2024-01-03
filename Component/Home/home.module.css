@@ -1,129 +1,16 @@
-.AboutBody {
-  display: flex;
-  width: 100%;
-  font-size: 110%;
+.homeSection{
+  width: 98%;
+  margin: 0 auto;
+}
+.homeSection div > h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 3rem;
 }
 
-.AboutContainer {
-  margin: 2%;
-  /* padding-left: 5%; */
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  height: 95%;
-  width: 95%;
-  /* border: solid rgb(128, 0, 13); */
-}
 
-.StyledHeading {
-  display: flex;
-  font-size: 160%;
-  text-align: center;
-  margin-left: 2%;
-  margin-bottom: -7%;
-  font-weight: 850%;
-  font-family: "lovelo";
-  /* border: solid yellow; */
-}
-.Photo2 {
-  /* border:  rgb(8, 235, 53) solid ; */
-  margin-top: 35;
-  width: 95%;
-  height: 95%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.TextSection {
-  margin: 0.5%;
-
-  font-size: 1.2rem;
-  padding-top: 5%;
-  line-height: 1.4em;
-  height: 95%;
-  width: 95%;
-  color: black;
-  display: flex;
-  justify-content: space-around;
-  /* text-align: center; */
-  /* border: solid green; */
-}
-.Photo {
-  justify-content: center;
-  align-items: center;
-  height: 95%;
-  width: 95%;
-  /* border-radius: 20px; */
-  transition: 0.3s ease-in;
-  align-self: center;
-  margin-top: 8%;
-
-  /*  filter: grayscale(100%); */
-}
-
-.fotoo {
-  margin-top: 15%;
-  height: 0.000006%;
-  width: 100%;
-  /* border: solid black; */
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 3%;
-  /* justify-content: flex-start; */
-  margin-left: 0.003%;
-  /* border: solid red; */
-}
-
-.btninfo {
-  height: 50px;
-  width: 170px;
-  background-color: black;
-  /* border-radius: 20px; */
-  color: white;
-}
-.position {
-  text-align: center;
-  padding: 1rem;
-  /* border: 2px solid red; */
-  display: flex;
-  align-items: flex-end;
-}
-@media screen and (max-width: 1600px) {
-  .StyledHeading {
-    margin-bottom: -14%;
-    font-size: 250%;
-  }
-  .TextSection {
-    height: 25%;
-    width: 35%;
-    /* border: solid red; */
-    margin-left: 25%;
-  }
-  .Photo2 {
-    width: 20%;
-    height: 10%;
-  }
-  .fotoo {
-    margin-top: 10%;
-    width: 90%;
-    margin-bottom: -15%;
-  }
-}
-@media screen and (max-width: 1040px) {
-  .StyledHeading {
-    margin-bottom: -14%;
-  }
-}
-@media screen and (max-width: 400px) {
-  .StyledHeading {
-    font-weight: 750%;
-    margin-bottom: -16%;
-    font-size: 120%;
-  }
-  .fotoo {
-    margin-top: 10%;
-    margin-bottom: -10%;
-    margin-left: 0.003%;
-  }
+/*HOME MEDIA*/
+@media only screen and (max-width: 440px) {
+  .homeSection div > h1{
+      font-size: 2rem;
+    }
 }
