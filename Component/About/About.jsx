@@ -3,13 +3,12 @@ import styles from "./about.module.css";
 
 function About() {
   return (
-    <section className={`${styles.aboutSection} ${"globalWidth"}` }>
+    <section className={`${styles.aboutSection} ${"globalWidth"}`}>
       <br />
       <h2>acerca de nosotros</h2>
       <div>
         <h3>Visión:</h3>
         <p>
-       
           Ser una consultora reconocida en toda Mendoza, por brindar apoyo y
           solucionar de manera rápida y efectiva las necesidades de nuestros
           clientes.
@@ -25,17 +24,15 @@ function About() {
           empresariales.
         </p>
       </div>
-      <div>
-        <h3>Valores de la empresa:</h3>
-
+      <div className={styles.companyValues}>
+        <div><h3>Valores de la Empresa:</h3></div>
         <div>
-          <div>
+          <div className={styles.firstValue}>
             <p>Responsabilidad</p>
             <p>Honestidad</p>
             <p>Empatía</p>
           </div>
-
-          <div>
+          <div className={styles.secondValue}>
             <p>Trabajo en equipo</p>
             <p>Colaboración y creatividad</p>
             <p>Éxito</p>

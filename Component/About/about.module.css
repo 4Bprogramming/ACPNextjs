@@ -1,3 +1,32 @@
 .aboutSection{
   margin-top: 2rem;
 }
+.companyValues{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items:flex-start;
+  justify-content: center;
+
+
+}
+.companyValues > div:nth-child(2){
+  display: flex;
+}
+
+.firstValue > p, .secondValue > p{
+  padding-left: .5rem;
+}
+.firstValue > p::before, .secondValue > p::before{
+  content: "\2022";
+}
+
+/*ABOUT QUERY*/
+@media only screen and (max-width: 440px) {
+  .companyValues{
+    width: 100%;
+  }
+  .companyValues > div:nth-child(2){
+   flex-direction: column;
+  }
+}
