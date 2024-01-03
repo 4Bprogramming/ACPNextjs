@@ -1,42 +1,44 @@
-.homeSection,.homeSection hr,.homeSection > div:nth-child(2){
+.homeSection,
+.homeSection hr,
+.homeSection > div:nth-child(2) {
   width: 98%;
   margin: 0 auto;
 }
-.homeSection hr{
-  border: .1rem solid var(--dark-color);
+.homeSection hr {
+  border: 0.1rem solid var(--dark-color);
   border-radius: 1rem;
   margin-bottom: 1rem;
 }
-.homeSection  h1{
+.homeSection h1 {
   padding-left: 3rem;
+  letter-spacing: 4px;
 }
-.homeSection > div:nth-child(2){
-  width: 600px ;
+.homeSection > div:nth-child(2) {
+  width: 600px;
   height: 600px;
   position: relative;
   overflow: hidden;
 }
 
-
-
 /*HOME MEDIA*/
 @media only screen and (max-width: 640px) {
-  .homeSection > div:nth-child(2){
-   width: 100%;
-   height: 400px;
+  .homeSection > div:nth-child(2) {
+    width: 100%;
+    height: 400px;
   }
-  .homeSection  h1{
+  .homeSection h1 {
     padding-left: 1rem;
   }
 }
 @media only screen and (max-width: 440px) {
-  .homeSection div > h1{
-      font-size: 2rem;
-    }
-    .homeSection > div:nth-child(2){
-      width: 100%;
-      height: 250px;
-     }
+  .homeSection div > h1 {
+    font-size: 2rem;
+  }
 }
 
-
+@media only screen and (max-width: 360px) {
+  .homeSection > div:nth-child(2) {
+    width: 100%;
+    height: 280px;
+  }
+}

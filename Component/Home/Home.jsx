@@ -8,7 +8,7 @@ function Home() {
   return (
     <section className={styles.homeSection}>
       <div>
-        <h1>Consultora</h1>
+        <h1>consultora</h1>
         <hr />
       </div>
       <div>
