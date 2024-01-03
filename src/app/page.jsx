@@ -5,7 +5,7 @@ import Contact from "../../Component/contact/Contact";
 import Footer from "../../Component/footer/Footer";
 import Services from "../../Component/service/Services";
 import Testimonials from '../../Component/testimonials/TestimonialsP';
-import './colours.css';
+
 
 
 
