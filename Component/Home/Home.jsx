@@ -9,11 +9,17 @@ function Home() {
     <section className={styles.homeSection}>
       <div>
         <h1>Consultora</h1>
-       <hr />
+        <hr />
       </div>
-
       <div>
-        <Image src={logo} alt="company logo" layout="responsive" />
+        <Image
+          src={logo}
+          alt="company logo"
+          fill
+          style={{
+            objectFit: "contain"
+          }}
+        />
       </div>
     </section>
   );
