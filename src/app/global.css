@@ -5,12 +5,21 @@
 body {
   display: flex;
   flex-direction: column;
-  border: 1px solid var(--link-colour);
-  font-size: 16px;
+  font-size: 16px !important;
   width: 100%;
   padding: 0;
 } 
+h1{
+  font-size: 3rem;
+  font-family: var(--loveloo), sans-serif;
+}
 
+/******QUERIES******/
+@media only screen and (max-width: 440px) {
+   h1{
+      font-size: 2rem;
+    }
+}
 
 
 
