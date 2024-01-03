@@ -1,16 +1,16 @@
-
-.body {
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
   display: flex;
-  flex-direction: row;
-  padding:1%;
-  min-height: 80%;
-  height: 100%;
+  flex-direction: column;
+  border: 1px solid var(--link-colour);
+  font-size: 16px;
   width: 100%;
-  font-size: 130%; /*16 px*/
-  padding-bottom: 7rem;
-  position: relative;
-  margin: 0.2%;
-  border: solid  var(--barbie-colour);
+  padding: 0;
 } 
+
+
 
 
