@@ -14,8 +14,8 @@ export default function Complete() {
     <main >
       {/* <NavBar/> */}
       <Home />
-      {/* <About />
-      <Services/>
+      <About />
+       {/*<Services/>
       <Testimonials/>
       <Contact/>
       <Footer/> */}
