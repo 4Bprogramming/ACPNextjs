@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import logo from "Assets/presentar.png";
 import line from "Assets/line.png";
-import styles from "../../src/app/home.module.css";
+import styles from "./home.module.css";
 
 function Home() {
   return (
