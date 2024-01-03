@@ -1,17 +1,37 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   display: flex;
   flex-direction: column;
   font-size: 16px !important;
   width: 100%;
-  padding: 0;
+  
 } 
+.globalWidth{
+  width: 98%;
+  margin: 0 auto;
+  background-color: var(--bg-color-dark);
+  color: var(--light-color);
+  padding: .6rem;
+}
 h1{
   font-size: 3rem;
   font-family: var(--loveloo), sans-serif;
+}
+h2,h3,h4,h5{
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: var(--monserrat_italic);
+}
+p{
+  font-family: var(--monserrat_italic);
+  font-size: 1rem;
+}
+h2{
+  font-size: 2rem;
 }
 
 /******QUERIES******/
@@ -19,6 +39,10 @@ h1{
    h1{
       font-size: 2rem;
     }
+    h2{
+      font-size: 1.5rem;
+    }
+  
 }
 
 
