@@ -6,21 +6,16 @@ import styles from "./home.module.css";
 
 function Home() {
   return (
-    <div id="home">
-      <div className={styles.AboutBody}>
-        <div className={styles.AboutContainer}>
-          <div className={styles.fotoo}>
-            <div className={styles.StyledHeading}>C O N S U L T O R A</div>
-
-            <Image src={line} alt="linea" layout="responsive" />
-          </div>
-
-          <div className={styles.TextSection}>
-            <Image className={styles.Photo2} src={logo} layout="responsive" />
-          </div>
-        </div>
+    <section className={styles.homeSection}>
+      <div>
+        <h1>Consultora</h1>
+       <hr />
       </div>
-    </div>
+
+      <div>
+        <Image src={logo} alt="company logo" layout="responsive" />
+      </div>
+    </section>
   );
 }
 
