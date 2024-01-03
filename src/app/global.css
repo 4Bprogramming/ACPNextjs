@@ -6,15 +6,11 @@
   min-height: 80%;
   height: 100%;
   width: 100%;
-  font-size: 130%;
+  font-size: 130%; /*16 px*/
   padding-bottom: 7rem;
   position: relative;
   margin: 0.2%;
   border: solid  var(--barbie-colour);
 } 
-.About{
-  height: 100%;
-  width: 100%;
-  border: solid var(--dark-color);
-}
+
 
