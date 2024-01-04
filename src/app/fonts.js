@@ -12,3 +12,9 @@ export const lovelo = localFont({
   display: 'swap',
   variable:"--loveloo"
 });
+
+export const monserratVariable = localFont({
+  src: './fonts/Montserrat-VariableFont_wght.ttf',
+  display: 'swap',
+  variable:"--monserratVariable"
+});
