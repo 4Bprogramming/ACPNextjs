@@ -15,7 +15,7 @@
 }
 
 .firstValue > p, .secondValue > p{
-  padding-left: .5rem;
+  padding:.5rem 0 0 .5rem;
 }
 .firstValue > p::before, .secondValue > p::before{
   content: "\2022";
