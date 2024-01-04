@@ -32,3 +32,11 @@
     width: 280px;
   }
 }
+@media only screen and (max-width: 300px) {
+  .testimonialSection > div {
+    grid-template-columns: repeat(1, 220px);
+  }
+  .testimonialCard img {
+    width: 220px;
+  }
+}
