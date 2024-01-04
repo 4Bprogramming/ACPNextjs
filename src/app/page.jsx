@@ -16,8 +16,8 @@ export default function Complete() {
       <Home />
       <About />
         <Services/>
-      {/*<Testimonials/>
-      <Contact/>
+      <Testimonials/>
+      {/*<Contact/>
       <Footer/> */}
     </main>
   )
