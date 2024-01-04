@@ -1,80 +1,31 @@
-.Testimonialsexperience {
-    background-color: #282c34;
-    color: white;
-    margin-top: -15%;
- 
-  }
-  .containerTest {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-  .TestimonialsTitle{
-      font-size: 250%;
-      text-align: center;
-  }
-  
- 
-  .SvgContainerTest {
-    height: 88px;
-    width: 200px;
-    margin-bottom: 2px;
-  }
-  .SvgContainerTest  img{
-    object-fit: fill;
-    width: 100%;
-    height: 100%;
-  }
-  .titleCardTest {
-   
-    font-size: 17px;
-    font-weight: 600;
-    margin-bottom: 1px;
-    margin-top: 1px;
-  }
-  .cardContainerTest{
-    /* border: solid red; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-    min-height: 260px;
-  }
-  .cardContainerTest p {
-    font-style: italic;
-    margin-top: 2px;
-  }
-  
-  .TestimonialDesciption{
-      text-align: center;
-      width: 300px;
-      margin-left: 10px;
-      margin-right: 10px;
-  }
-  @media screen and (max-width: 310px) {
-.TestimonialDesciption{
-  width: 200px;
-  text-align: center;
-  align-items: center;
-  margin-left: 50px;
+.testimonialSection > div {
+  display: grid;
+  grid-template-columns: repeat(4, 202px);
+  justify-content: space-around;
+  margin-top: 1rem;
 }
-.titleCardTest{
-  font-size: 15px;
-  text-align: center;
-  margin-left: 30px;
-}
-.TestimonialsTitle{
-  font-size: 2.5rem;
+.testimonialCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-  .titleCardTest{
-    width: 250px;
+/*SERVICE QUERY*/
+@media only screen and (max-width: 1024px) {
+  .testimonialSection > div {
+    grid-template-columns: repeat(3, 202px);
+    gap: 1rem;
   }
-  .containerTest{
-    width: 260px;
+}
+@media only screen and (max-width: 720px) {
+  .testimonialSection > div {
+    grid-template-columns: repeat(2, 202px);
   }
 
-  }
   
+}
+@media only screen and (max-width: 440px) {
+  .testimonialSection > div {
+    grid-template-columns: repeat(1, 202px);
+  }
+}
