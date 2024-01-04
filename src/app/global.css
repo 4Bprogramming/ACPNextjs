@@ -16,6 +16,7 @@ body {
   background-color: var(--bg-color-dark);
   color: var(--light-color);
   padding: .6rem;
+  margin-top: -1px;
 }
 h1{
   font-size: 3rem;
