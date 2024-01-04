@@ -1,8 +1,8 @@
 import React from 'react'
-import "./Footer.css"
+import styles from "./footer.module.css"
 function Footer() {
   return (
-    <div className='FooterAcp' >
+    <div className={styles.footerAcp} >
         Copyright © todos los derechos reservados ACP Gestión y Marketing 2023
     </div>
   )
