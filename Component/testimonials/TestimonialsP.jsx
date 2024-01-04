@@ -5,16 +5,16 @@ import {testimonials} from './testimonials'
 function Testimonials() {
   
   return (
-    <section className={styles.Testimonialsexperience} id="testimonials">
-      <h1 className={styles.TestimonialsTitle}>TESTIMONIOS</h1>
-      <div className={styles.containerTest}>
+    <section className={`${styles.testimonialSection} ${"globalWidth"}`}>
+      <h2>testimonios</h2>
+      <div>
         {testimonials.map((Testimonial, i) => (
-          <div key={i} className={styles.cardContainerTest}>
-            <div className={styles.imgSpaceTest}>
-              <div className={styles.SvgContainerTest}>{Testimonial.src}</div>
+          <div key={i} className={styles.testimonialCard}>
+            <div >
+              <div>{Testimonial.src}</div>
             </div>
-            <p className={styles.TestimonialDesciption}>{Testimonial.desc}</p>
-            <div className={styles.titleCardTest}>{Testimonial.title}</div>
+            <p>{Testimonial.desc}</p>
+            <p><strong>{Testimonial.title}</strong></p>
           </div>
         ))}
       </div>
