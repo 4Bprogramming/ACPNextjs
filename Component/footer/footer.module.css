@@ -1,0 +1,15 @@
+.footerAcp{
+  width: 98%;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  font-family: var(--monserratVariable);
+  font-size: 1rem;
+}
+
+/*Footer Query*/
+@media only screen and (max-width: 440px){
+    .footerAcp{
+        font-size: .7rem;
+      }
+}
