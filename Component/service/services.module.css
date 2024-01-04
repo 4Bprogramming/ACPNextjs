@@ -36,8 +36,14 @@
   }
 }
 @media only screen and (max-width:320px) {
-  
+  .servicesSection > div{
+    grid-template-columns: repeat(1,280px);
+  }
   .servicesSection > div img{
-    width: 240px;
+    width: 250px;
+    height: auto;
+  }
+  .serviceCard > p{
+    padding: 0 1rem;
   }
 }
