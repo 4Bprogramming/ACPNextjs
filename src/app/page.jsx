@@ -18,7 +18,7 @@ export default function Complete() {
         <Services/>
       <Testimonials/>
       <Contact/>
-      {/*<Footer/> */}
+      <Footer/>
     </main>
   )
 }
