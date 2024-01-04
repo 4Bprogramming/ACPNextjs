@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contact.css";
+import styles from "./contact.module.css"
 import Whatsapp from "../../Assets/WhatsApp.svg.webp";
 import Instagram from "../../Assets/instagram.png";
 import Image from "next/image";
@@ -7,9 +7,9 @@ import Link from "next/link";
 
 function Contact() {
   return (
-    <div className="AboutContact">
-      <div>CONTACTO</div>
-      <div className="mediaIcons">
+    <div className={`${styles.AboutContact} ${"globalWidth"}`} >
+      <h2>contacto</h2>
+      <div className={styles.mediaIcons}>
         <div>
           <Image
             src={Whatsapp}
@@ -31,11 +31,11 @@ function Contact() {
           />{" "}
         </div>
       </div>
-      <div>
+      <p>
         EMAIL: 
         <Link href="mailto:acpgestionymarketing@gmail.com"> ACPmail </Link>
-      </div>
-      <div>CEL: <span>2616075153 // 2613051523</span></div>
+      </p>
+      <p>CEL: <span>2616075153 // 2613051523</span></p>
     </div>
   );
 }
